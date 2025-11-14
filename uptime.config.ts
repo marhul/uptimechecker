@@ -54,6 +54,7 @@ const workerConfig: WorkerConfig = {
       // checkProxy: 'worker://weur',
       // [OPTIONAL] if true, the check will fallback to local if the specified proxy is down
       // checkProxyFallback: true,
+      hideLatencyChart: true   // ← přidáno,
     },
     // Example TCP Monitor
     {
@@ -66,6 +67,7 @@ const workerConfig: WorkerConfig = {
       tooltip: 'My production server SSH',
       statusPageLink: 'mqtt1.vps.webdock.cloud',
       timeout: 5000,
+      hideLatencyChart: true   // ← přidáno,
     },
   ],
   // [Optional] Notification settings
